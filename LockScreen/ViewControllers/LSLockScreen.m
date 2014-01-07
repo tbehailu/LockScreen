@@ -9,9 +9,10 @@
 #import "LSLockScreen.h"
 #import "LSLockScreen+Private.h"
 
-@interface LSLockScreen ()
 
+@interface LSLockScreen ()
 @end
+
 
 @implementation LSLockScreen
 

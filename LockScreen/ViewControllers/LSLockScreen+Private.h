@@ -8,6 +8,7 @@
 
 #import "LSLockScreen.h"
 
+
 @interface LSLockScreen (Private)
 
 - (void)_unlockSucceded;
