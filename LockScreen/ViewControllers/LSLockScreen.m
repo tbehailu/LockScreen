@@ -7,6 +7,7 @@
 //
 
 #import "LSLockScreen.h"
+#import "LSLockScreen+Private.h"
 
 @interface LSLockScreen ()
 
@@ -26,17 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)_unlockSucceded;
-{
-    [[self presentingViewController] dismissViewControllerAnimated:YES completion:NULL];
-}
-
-- (void)_unlockFailed;
-{
-    [[[UIAlertView alloc] initWithTitle:@"FAILED!!!!" message:@"SUCK LESS" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil] show];
-}
 
 @end

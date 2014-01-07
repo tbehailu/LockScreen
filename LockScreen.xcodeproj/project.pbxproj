@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31013848187B8682005D7FE2 /* LSLockScreen+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 31013847187B8682005D7FE2 /* LSLockScreen+Private.m */; };
 		31AA8D27187B7E4C000D1BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AA8D26187B7E4C000D1BCC /* Foundation.framework */; };
 		31AA8D29187B7E4C000D1BCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AA8D28187B7E4C000D1BCC /* CoreGraphics.framework */; };
 		31AA8D2B187B7E4C000D1BCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AA8D2A187B7E4C000D1BCC /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31013846187B8682005D7FE2 /* LSLockScreen+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LSLockScreen+Private.h"; path = "ViewControllers/LSLockScreen+Private.h"; sourceTree = "<group>"; };
+		31013847187B8682005D7FE2 /* LSLockScreen+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LSLockScreen+Private.m"; path = "ViewControllers/LSLockScreen+Private.m"; sourceTree = "<group>"; };
 		31AA8D23187B7E4C000D1BCC /* LockScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AA8D26187B7E4C000D1BCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		31AA8D28187B7E4C000D1BCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 		31AA8D2D187B7E4C000D1BCC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31013846187B8682005D7FE2 /* LSLockScreen+Private.h */,
+				31013847187B8682005D7FE2 /* LSLockScreen+Private.m */,
 				31AA8D2E187B7E4C000D1BCC /* LockScreen-Info.plist */,
 				31AA8D2F187B7E4C000D1BCC /* InfoPlist.strings */,
 				31AA8D32187B7E4C000D1BCC /* main.m */,
@@ -268,6 +273,7 @@
 			files = (
 				31AA8D33187B7E4C000D1BCC /* main.m in Sources */,
 				31AA8D5E187B7FC8000D1BCC /* LSLockScreen.m in Sources */,
+				31013848187B8682005D7FE2 /* LSLockScreen+Private.m in Sources */,
 				31AA8D37187B7E4C000D1BCC /* LSAppDelegate.m in Sources */,
 				31AA8D58187B7F54000D1BCC /* LSUnlockedViewController.m in Sources */,
 			);
@@ -470,6 +476,7 @@
 				31AA8D51187B7E4C000D1BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31AA8D52187B7E4C000D1BCC /* Build configuration list for PBXNativeTarget "LockScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				31AA8D54187B7E4C000D1BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
