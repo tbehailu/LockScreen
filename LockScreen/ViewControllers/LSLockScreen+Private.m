@@ -12,7 +12,9 @@
 
 - (void)_unlockSucceded;
 {
-    [[self presentingViewController] dismissViewControllerAnimated:YES completion:NULL];
+    [self animateUnlockWithCompletion:^(BOOL finished) {
+        [[self presentingViewController] dismissViewControllerAnimated:YES completion:NULL];
+    }];
 }
 
 - (void)_unlockFailed;

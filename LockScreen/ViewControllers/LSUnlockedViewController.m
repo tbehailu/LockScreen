@@ -15,7 +15,7 @@
 
 @implementation LSUnlockedViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -24,7 +24,8 @@
     return self;
 }
 
-- (IBAction)testLockScreen:(id)sender {
+- (IBAction)testLockScreen:(id)sender;
+{
     LSLockScreen *lockScreen = [[LSLockScreen alloc] initWithNibName:nil bundle:nil];
     [self presentViewController:lockScreen animated:YES completion:NULL];
 }

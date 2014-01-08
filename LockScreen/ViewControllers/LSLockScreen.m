@@ -16,7 +16,7 @@
 
 @implementation LSLockScreen
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -30,5 +30,11 @@
     [super viewDidLoad];
 }
 
+- (void)animateUnlockWithCompletion:(void(^)(BOOL finished))completionBlock;
+{
+    [UIView animateWithDuration:.2 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        // Animate stuff here.
+    } completion:completionBlock];
+}
 
 @end

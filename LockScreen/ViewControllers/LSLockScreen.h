@@ -10,4 +10,6 @@
 
 @interface LSLockScreen : UIViewController
 
+- (void)animateUnlockWithCompletion:(void(^)(BOOL finished))completionBlock;
+
 @end
