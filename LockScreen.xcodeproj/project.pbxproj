@@ -61,6 +61,7 @@
 		31AA8D5B187B7FC8000D1BCC /* LSLockScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSLockScreen.h; path = ViewControllers/LSLockScreen.h; sourceTree = "<group>"; };
 		31AA8D5C187B7FC8000D1BCC /* LSLockScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSLockScreen.m; path = ViewControllers/LSLockScreen.m; sourceTree = "<group>"; };
 		31AA8D5D187B7FC8000D1BCC /* LSLockScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSLockScreen.xib; path = ViewControllers/LSLockScreen.xib; sourceTree = "<group>"; };
+		31B025D9187D0D9000D3E180 /* LSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		31AA8D2D187B7E4C000D1BCC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31B025D9187D0D9000D3E180 /* LSUtils.h */,
 				31013846187B8682005D7FE2 /* LSLockScreen+Private.h */,
 				31013847187B8682005D7FE2 /* LSLockScreen+Private.m */,
 				31AA8D2E187B7E4C000D1BCC /* LockScreen-Info.plist */,
