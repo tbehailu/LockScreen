@@ -2,7 +2,6 @@
 //  LSLockScreen.m
 //  LockScreen
 //
-//  Created by Brian Turner on 1/6/14.
 //  Copyright (c) 2014 SquareCodeCamp. All rights reserved.
 //
 
@@ -11,6 +10,8 @@
 
 
 @interface LSLockScreen ()
+@property (weak, nonatomic) IBOutlet UIImageView *icon;
+@property (weak, nonatomic) IBOutlet UIImageView *icon2;
 @end
 
 
@@ -35,6 +36,15 @@
     [UIView animateWithDuration:.2 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
         // Animate stuff here.
     } completion:completionBlock];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    
+    [UIView animateWithDuration:10 animations:^{
+        self.icon.frame = CGRectInset(self.icon.frame, -400, -400);
+        self.icon2.frame = CGRectInset(self.icon2.frame, -300, -300);
+    }];
 }
 
 @end

@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSLockScreen">
             <connections>
+                <outlet property="icon" destination="MPO-m6-lVY" id="bLp-v9-Ndc"/>
+                <outlet property="icon2" destination="69s-A5-jDV" id="uYR-3f-SHi"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -13,9 +15,22 @@
         <view contentMode="scaleToFill" id="1">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="doge" translatesAutoresizingMaskIntoConstraints="NO" id="69s-A5-jDV">
+                    <rect key="frame" x="0.0" y="269" width="323" height="299"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="doge" translatesAutoresizingMaskIntoConstraints="NO" id="MPO-m6-lVY">
+                    <rect key="frame" x="-3" y="-1" width="323" height="299"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
+    <resources>
+        <image name="doge" width="300" height="300"/>
+    </resources>
 </document>

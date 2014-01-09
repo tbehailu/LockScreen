@@ -2,7 +2,6 @@
 //  LSUtils.h
 //  LockScreen
 //
-//  Created by Brian Turner on 1/7/14.
 //  Copyright (c) 2014 SquareCodeCamp. All rights reserved.
 //
 
